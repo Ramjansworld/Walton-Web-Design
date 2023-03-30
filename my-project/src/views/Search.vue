@@ -1,31 +1,34 @@
-
 <template>
     <a href="#" class="flex flex-row items-center">
               <img src="./walton logo.png" alt="" class="pl-4 -mt-24 w-24 h-12" />
     </a>
+    <div class="flex flex-row items-end justify-end border-none -mt-[62px] pr-[70px] cursor-auto">
+      <input class="bg-gray-100 rounded-sm h-10 w-[420px]" />
+    </div>
 <div class="mx-2 h-auto w-screen">
-      <div class="-mt-1.5">
-        <a href="#" class="inline-block">
-          <img src="./sc4.jpg" alt=""/>
+    <div class="mt-4">
+      <a href="#" class="inline-block">
+        <img src="./sc1.jpg" />
           <span class="flex relative items-center justify-between p-10 h-36 -top-80">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=" stroke-blue-700 w-12 h-12">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
             <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
             </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="stroke-blue-700 w-12 h-12">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
             <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
             </svg>
           </span>
-          <div class="flex relative items-center justify-center mx-1 -top-48">
-             <button class="border-2 border-spacing-10 border-solid border-yellow-500 h-3 w-3 rounded-full  bg-black hover:bg-blue-600"></button>
-             <button class="border-2 border-spacing-10 border-solid border-yellow-500 h-3 w-3 rounded-full  bg-black hover:bg-blue-600"></button>
-             <button class="border-2 border-spacing-10 border-solid border-yellow-500 h-3 w-3 rounded-full  bg-black hover:bg-blue-600"></button>
-             <button class="border-2 border-spacing-10 border-solid border-yellow-500 h-3 w-3 rounded-full  bg-black hover:bg-blue-600"></button>
-             <button class="border-2 border-spacing-10 border-solid border-yellow-500 h-3 w-3 rounded-full  bg-black hover:bg-blue-600"></button>
-             <button class="border-2 border-spacing-10 border-solid border-yellow-500 h-3 w-3 rounded-full  bg-black hover:bg-blue-600"></button>
+          <div class="flex relative items-center justify-center mx-1 -top-52">
+             <button class="border-2 border-spacing-10 border-solid border-gray-700 h-3 w-3 rounded-full  bg-white hover:bg-blue-600"></button>
+             <button class="border-2 border-spacing-10 border-solid border-gray-700 h-3 w-3 rounded-full  bg-white hover:bg-blue-600"></button>
+             <button class="border-2 border-spacing-10 border-solid border-gray-700 h-3 w-3 rounded-full  bg-white hover:bg-blue-600"></button>
+             <button class="border-2 border-spacing-10 border-solid border-gray-700 h-3 w-3 rounded-full  bg-white hover:bg-blue-600"></button>
+             <button class="border-2 border-spacing-10 border-solid border-gray-700 h-3 w-3 rounded-full  bg-white hover:bg-blue-600"></button>
+             <button class="border-2 border-spacing-10 border-solid border-gray-700 h-3 w-3 rounded-full  bg-white hover:bg-blue-600"></button>
           </div>
         </a>
     </div>
-    <div class="-mt-40">
+
+    <div class="-mt-[155px]">
         <a href="#" class="inline-block">
           <img src="./wp1.jpg" alt=""/>
         </a>

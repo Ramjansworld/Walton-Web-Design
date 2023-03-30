@@ -1,20 +1,19 @@
 <template>
     <a href="#" class="flex flex-row items-center">
-              <img src="./walton logo.png" alt="" class="pl-2 -mt-24 w-20 h-12" />
+        <img src="./walton logo.png" alt="" class="pl-4 -mt-24 w-24 h-12" />
     </a>
-
-<div class="flex relative flex-colm items-end justify-end mr-40">
+<div class="flex relative flex-colm items-end justify-end mr-[315px]">
     <ul class="text-black font-sans font-semibold mx-2 rounded-lg bg-gray-100 h-40 w-64 pl-6">
-       <li class="text-black hover:text-blue-700">About</li>
-       <li class="text-black hover:text-blue-700">Message from Chairman</li>
-       <li class="text-black hover:text-blue-700">Global Operation</li>
-       <li class="text-black hover:text-blue-700">Walton Group Documentary</li>
-       <li class="text-black hover:text-blue-700">Awards</li>
-       <li class="text-black hover:text-blue-700">Accreditation</li>
+       <li class=" hover:text-blue-700 hover:text-[18px]">About</li>
+       <li class=" hover:text-blue-700 hover:text-[18px]">Message from Chairman</li>
+       <li class=" hover:text-blue-700 hover:text-[18px]">Global Operation</li>
+       <li class=" hover:text-blue-700 hover:text-[18px]">Walton Group Documentary</li>
+       <li class=" hover:text-blue-700 hover:text-[18px]">Awards</li>
+       <li class=" hover:text-blue-700 hover:text-[18px]">Accreditation</li>
     </ul>
 </div>
 <div class="mx-2 h-auto w-screen">
-      <div class="-mt-[161px]">
+      <div class="-mt-[166px]">
         <a href="#" class="inline-block">
           <img src="./sc1.jpg" alt=""/>
           <span class="flex relative items-center justify-between p-10 h-36 -top-80">
@@ -40,47 +39,67 @@
           <img src="./wp1.jpg" alt=""/>
         </a>
     </div>
-    <div>
-        <a href="#" class="inline-block">
-          <img src="./wp2.jpg" alt=""/>
-        </a>
+    <div class="flex flex-colm items-center justify-center">
+        <div class="pl-20">
+            <p class="text-2xl font-serif">Energy Efficient & Eco Friendly</p>
+            <h1 class="text-5xl font-serif font-semibold">Air Conditioner</h1>
+            <p class="text-xl">Walton Air Conditioner is integrated with intelligent inverter technology that saves maximum electricity.</p>
+        </div>
+        <div>
+           <a href="#" class="inline-block">
+             <img src="./wp2.jpg" alt=""/>
+           </a>
+        </div>
     </div>   
     <div>
         <a href="#" class="inline-block">
           <img src="./wp3.jpg" alt=""/>
         </a>
     </div>   
-    <div>
+    <div class="flex flex-row items-center text-start justify-center">
         <a href="#" class="inline-block">
-          <img src="./wp4.jpg" alt=""/>
+          <img class="h-[430px] w-screen" src="./wp4.jpg" alt=""/>
         </a>
+        <div class="pl-12 pr-10 w-10/12">
+            <p class="text-6xl font-serif font-thin">REVOLUTION</p>
+            <h1 class="text-3xl font-serif">BEGINS HERE</h1>
+            <p class="text-xl font-sans">The Primo ZX4 is everything you want in a perfect smartphone; large FHD+ display, Penta AI Cameras, Gaming Centric Processor, amazing RAM and ROM, awestruck selfie camera and much more. </p>
+        </div>
     </div>
-    <div>
+    <div class="mt-1.5">
         <a href="#" class="inline-block">
           <img src="./wp5.jpg" alt=""/>
         </a>
     </div> 
-    <div>
+    <div class="flex flex-row items-center text-start justify-center">
+    <div class="pl-12 pr-20 w-10/12">
+            <p class="text-6xl font-serif font-thin">𝗟𝗮𝘂𝗻𝗱𝗿𝘆!</p>
+            <h1 class="text-3xl font-serif">𝗛𝗮𝘃𝗲 𝗻𝗼𝘄 𝗦𝗺𝗮𝗿𝘁𝗲𝗿 𝗢𝗽𝘁𝗶𝗼𝗻𝘀</h1>
+            <p class="text-xl font-sans">Multifunctional & energy efficient Walton Washing Machines surprise you with the finest washing performance. Now make your washing innovatively convenient.</p>
+        </div>
         <a href="#" class="inline-block">
           <img src="./wp6.jpg" alt=""/>
         </a>
     </div>
-    <div>
+    <div class="mt-1.5">
         <a href="#" class="inline-block">
           <img src="./wp7.jpg" alt=""/>
         </a>
     </div>
-    <div>
+    <div class="flex flex-row items-center text-start justify-center">
         <a href="#" class="inline-block">
           <img src="./wp8.jpg" alt=""/>
         </a>
+        <div class="pl-12 pr-10 w-10/12">
+            <p class="text-6xl font-serif font-thin">Microwave Oven</p>
+            <h1 class="text-3xl font-serif">Brings Comfort to Life</h1>
+            <p class="text-xl font-sans">Walton Microwave Oven comes up with Multi-functional Automatic Cooking Menus and several Power Level Settings that help to cook anything in no time! </p>
+        </div>
     </div>   
     <div>
-    
         <a href="#" class="inline-block">
           <img src="./footer.png" alt=""/>
         </a>
     </div>
 </div>
 </template>
-
